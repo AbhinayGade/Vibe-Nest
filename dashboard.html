@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vibe Nest | Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card a {
+      text-decoration: none;
+      color: var(--text);
+      font-size: 1.1em;
+      display: block;
+    }
+
+    .icon {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌟 Welcome to Vibe Nest</h1>
+
+  <div class="grid">
+    <div class="card"><div class="icon">💬</div><a href="chat.html">Chat Room</a></div>
+    <div class="card"><div class="icon">🤖</div><a href="bot.html">VibeBot</a></div>
+    <div class="card"><div class="icon">🎧</div><a href="music.html">Songs</a></div>
+    <div class="card"><div class="icon">📚</div><a href="books.html">Books / Anime</a></div>
+    <div class="card"><div class="icon">🎮</div><a href="games.html">Games</a></div>
+    <div class="card"><div class="icon">😂</div><a href="memes.html">Memes</a></div>
+    <div class="card"><div class="icon">🧠</div><a href="mindspace.html">Mind Space</a></div>
+    <div class="card"><div class="icon">📸</div><a href="mood.html">Mood Board</a></div>
+    <div class="card"><div class="icon">🗳️</div><a href="polls.html">Polls</a></div>
+    <div class="card"><div class="icon">🧍</div><a href="profile.html">Vibe Profile</a></div>
+    <div class="card"><div class="icon">🌈</div><a href="dailyboost.html">Daily Brain Boost</a></div>
+    <div class="card"><div class="icon">🛠️</div><a href="tools.html">Mini Tools</a></div>
+    <div class="card"><div class="icon">🎡</div><a href="spin.html">Spin the Wheel</a></div>
+    <div class="card"><div class="icon">📰</div><a href="news.html">News + Sports</a></div>
+    <div class="card"><div class="icon">💡</div><a href="suggestions.html">Suggestions</a></div>
+  </div>
+</body>
+</html>
